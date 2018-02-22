@@ -1,0 +1,86 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#container{
+ 	width: 940px;
+	background-color: white
+}
+#headline{
+    height: 40px;
+    padding-left: 15px;
+    margin: 10px;
+    display: inline-block;
+}
+#name{
+	height: 40px;
+	width: 200px;
+	padding-top: 15px;
+ 	padding-left: 15px;
+ 	padding-bottom: 15px;
+ 	display: inline-block;
+ 	text-align: left;
+}
+#slogan{
+	width: 585px;
+	height: 40px;
+	padding-top: 15px;
+ 	padding-left: 15px;
+ 	padding-bottom: 15px;
+ 	display: inline-block;
+ 	text-align: right;
+ 	float: right;
+
+}
+#main_content{
+ height: 800px;
+ width: 940px;
+ margin: 10px;
+ display: inline-block;
+ background-color: indigo;
+ vertical-align: top;
+ float: right;
+ color: lightblue;
+ }
+#pictureframe{
+ 	border: 5px;
+ 	background-color: grey;
+ 	width: 425px;
+ 	height: 300px;
+ 	margin-left: 15px
+ 	border: 5px;
+ 	float: left;
+ 	display: inline-block;
+}
+#about{
+	width: 425px;
+ 	height: 300px;
+ 	display: inline-block;
+ 	float: right;
+}
+#topborder{
+	width: 415px;
+	height: 30px;
+	background-color: grey;
+	margin-top: 10px;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+#biobody{
+	width: 415px;
+	height: 270px;
+	background-color: white;
+	color: black;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.titlepanel{
+	width: 300px;
+	height: 30px;
+	background-color: grey;
+	top-m
+}
+
