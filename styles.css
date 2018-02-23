@@ -3,84 +3,125 @@
  padding: 0px;
 }
 #container{
- 	width: 940px;
-	background-color: white
+ 	width: 970px;
+ 	height: 1029px;
+	background-color: #f6f6f6;
 }
 #headline{
-    height: 40px;
-    padding-left: 15px;
+    height: 60px;
+    width: auto;
     margin: 10px;
     display: inline-block;
+    color: black;
 }
 #name{
-	height: 40px;
-	width: 200px;
-	padding-top: 15px;
- 	padding-left: 15px;
- 	padding-bottom: 15px;
- 	display: inline-block;
- 	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	display: inline-block;
+	text-align: left;
 }
 #slogan{
-	width: 585px;
-	height: 40px;
+	margin-right: 40px;
+	float: right;
 	padding-top: 15px;
- 	padding-left: 15px;
- 	padding-bottom: 15px;
- 	display: inline-block;
- 	text-align: right;
- 	float: right;
-
+	display: inline-block;
+	text-align: right;
 }
-#main_content{
- height: 800px;
- width: 940px;
- margin: 10px;
- display: inline-block;
- background-color: indigo;
- vertical-align: top;
- float: right;
- color: lightblue;
- }
-#pictureframe{
- 	border: 5px;
- 	background-color: grey;
- 	width: 425px;
- 	height: 300px;
- 	margin-left: 15px
- 	border: 5px;
- 	float: left;
- 	display: inline-block;
+#mainbody{
+	width: auto;
+	height: 900px;
+	background-color: #6f5964;
+	background: linear-gradient(#6f5964, #4f3b43)
+}
+#introduction{
+	width: auto;
+	height: 275px;
+	vertical-align: right;
+	margin-bottom: 25px;
+}
+#frame{
+	width: 410px;
+	height: 275px;
+	display: inline-block;
+	background-color: #c0c0c0;
+	margin-left: 25px;
+	margin-top: 20px;
+	border: 5px;
+	background-image: url("portfolio_images/photo_of_me.jpg");
+	background-size: contain;
 }
 #about{
-	width: 425px;
- 	height: 300px;
- 	display: inline-block;
- 	float: right;
+	width: 480px;
+	height: 275px;
+	margin-left: 25px;
+	margin-top: 20px;
+	background-color: #efe9ef;
+	display: inline-block;
+	vertical-align: top;
 }
-#topborder{
-	width: 415px;
-	height: 30px;
-	background-color: grey;
-	margin-top: 10px;
-	margin-right: 20px;
+.backtitle{
+	background: linear-gradient(#B3B2B6, #878593, #B3B2B6);
 	padding-top: 10px;
 	padding-left: 10px;
+	width: auto;
+	height: 40px;
+	color: white;
+	text-align: left;
+}
+.textmod{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Times New Roman";
+	font-size: 12px;
+}
+#abouttext{
 
 }
-#biobody{
-	width: 415px;
-	height: 270px;
-	background-color: white;
-	color: black;
-	margin-right: 20px;
-	padding-top: 10px;
-	padding-left: 10px;
+#mainbody{
+
 }
-.titlepanel{
-	width: 300px;
-	height: 30px;
-	background-color: grey;
-	top-m
+.extrainfo{
+	width: 290px;
+	height: 550px;
+	margin-left: 18px;
+	margin-top: 20px;
+	background-color: #efe9ef;
+	display: inline-block;
+	vertical-align: top;
 }
+.button{
+	padding-top: 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: auto;
+	height: 25px;
+	border-color: black;
+	color: white;
+	border: 1px;
+	border-radius: 10px;
+	background-color: #407d61;
+	font-size: 15px;
+	text-align: center;
+}
+#leftpan{
+
+}
+#centerpan{
+
+}
+#rightpan{
+
+}
+#contact{
+	height: 70px;
+	width: 970px;
+	margin: 10px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+
+
 
